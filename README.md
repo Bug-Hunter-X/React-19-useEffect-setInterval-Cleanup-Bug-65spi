@@ -1,0 +1,2 @@
+# React 19 useEffect setInterval Cleanup Bug
+This repository demonstrates a common bug in React 19 involving the `setInterval` function within the `useEffect` hook and provides a solution to fix it.  Failure to properly clean up intervals leads to memory leaks and unexpected behavior in your application.  The `bug.js` file showcases the problematic code, while `bugSolution.js` presents the corrected implementation.
